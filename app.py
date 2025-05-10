@@ -13,7 +13,7 @@ def webhook():
     results = []
 
     # GitHub에서 최신 코드 pull
-    REPO_URL = "https://github.com/jongseo22/BNSdeploy.git" # 작업 HTML
+    REPO_URL = "https://github.com/jongseo22/BNSdeploy.git" # GitHub URL with HTML
     REPO_PATH = "/tmp/repo"
 
     if os.path.exists(REPO_PATH):
